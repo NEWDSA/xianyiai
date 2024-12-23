@@ -1,0 +1,17 @@
+global using System.Text;
+global using System.Text.Json;
+global using System.Text.Json.Serialization;
+global using System.ComponentModel.DataAnnotations;
+global using System.Security.Claims;
+global using System.IdentityModel.Tokens.Jwt;
+global using Microsoft.AspNetCore.Mvc;
+global using Microsoft.AspNetCore.Authorization;
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.IdentityModel.Tokens;
+global using Microsoft.Extensions.Options;
+global using XianYu.API.Models;
+global using XianYu.API.Models.XianYu;
+global using XianYu.API.Services;
+global using XianYu.API.Infrastructure;
+global using XianYu.API.Infrastructure.Data;
+global using XianYu.API.Infrastructure.Auth; 
